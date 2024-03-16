@@ -1,0 +1,40 @@
+.container {
+    background-image: url(../pages/images/pexels-joem-castillo-20065715.jpg);
+    background-size: cover;
+  }
+
+  header {
+    text-align: center;
+  }
+
+  section img {
+    object-fit: contain;
+  }
+
+  section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100vh;
+  }
+  .btn {
+    align-self: center;
+    --bs-btn-padding-y: 1rem;
+    --bs-btn-padding-x: 5rem;
+    --bs-btn-font-size: 1rem;
+  }
+  a {
+    align-self: center;
+  }
+  #headernav {
+
+    opacity: .25;
+
+    transition-property: opacity ;
+    transition-duration: 3ms;
+  }
+
+  #headernav:hover {
+    opacity: 1;
+  }
+
